@@ -1,0 +1,11 @@
+body {
+    background: radial-gradient(50% 50% at 50% 50%, #343330 0%, #191919 100%);
+    height: 100vh;
+    width: 100%;
+}
+*{
+  font-family: "Roboto", sans-serif;
+
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

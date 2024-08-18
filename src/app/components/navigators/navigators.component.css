@@ -1,0 +1,53 @@
+div {
+    width: 230px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 42.36px;
+    text-align: left;
+    color: white;
+    text-shadow: 5px 3px 11px dimgray;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+    user-select: none;     
+}
+
+.quick {
+    background:
+        linear-gradient(0.15deg, rgba(217, 217, 217, 0) -152.29%, rgba(0, 0, 0, 0.75) 99.87%),
+        url('../../../assets/imgs/navigators/quick.png');
+    background-size: cover;
+}
+
+.advanced {
+    background:
+        linear-gradient(0.15deg, rgba(217, 217, 217, 0) -152.29%, rgba(0, 0, 0, 0.75) 99.87%),
+        url('../../../assets/imgs/navigators/advanced.png');
+    background-size: cover;
+}
+
+.find-us {
+    background:
+        linear-gradient(0.15deg, rgba(217, 217, 217, 0) -152.29%, rgba(0, 0, 0, 0.75) 99.87%),
+        url('../../../assets/imgs/navigators/find.png');
+    background-size: cover;
+}
+.quick-svg{
+    position: absolute;
+    left: 18%;
+}
+.advanced-svg{
+    position: absolute;
+    left: 24%;
+}
+.find-svg{
+    position: absolute;
+    left: 49%;
+}

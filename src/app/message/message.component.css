@@ -1,0 +1,27 @@
+img {
+    display: flex;
+    margin: auto;
+    height: 220px;
+}
+
+.navigators {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 15px;
+    width: 49%;
+    justify-content: space-evenly;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.row {
+    height: 500px;
+    position: relative;
+    top: 50px;
+}
